@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnakeTBs.Identity.Api</name>
+    </assembly>
+    <members>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.ADMINISTRATORS">
+            <summary>
+            Все пользователи администраторы
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.SERVICE">
+            <summary>
+            Сервис пользователь
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.ADMIN">
+            <summary>
+            Админ пользователь
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.USER">
+            <summary>
+            Обычный пользователь
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.BOT">
+            <summary>
+            Бот пользователь
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.IDENTITY">
+            <summary>
+            Все пользователи
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Authentications.Models.Constants.GroupConstant.HUMAN">
+            <summary>
+            Все люди
+            </summary>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.AdminControllers.Entities.AdminController.PutSignUpAsync(SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.AdminsControllers.Entities.AdminsController.GetUsersAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.BotControllers.Entities.BotController.PutSignUpAsync(SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.BotsControllers.Entities.BotsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.PermissionControllers.Entities.PermissionController.PatchAsync(SnakeTBs.Identity.Api.Controllers.PermissionControllers.Requests.Entities.PatchPermissionRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.PermissionControllers.Entities.PermissionController.GetAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.PermissionsControllers.Entities.PermissionsController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.ReferralControllers.Entities.ReferralController.GetAsync">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.ReferralControllers.Entities.ReferralController.GetAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.ReferralsControllers.Entities.ReferralsController.GetAsync">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.ServiceControllers.Entities.ServiceController.PutSignUpAsync(SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.ServicesControllers.Entities.ServicesController.GetAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.TokenControllers.Entities.TokenController.PutSignInAsync(SnakeTBs.Identity.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest)">
+            <summary>
+            [ANY]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.TokenControllers.Entities.TokenController.GetAsync">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.TokenControllers.Entities.TokenController.DeleteAsync">
+            <summary>
+            [HUMAN]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.TokenControllers.Entities.TokenController.DeleteAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.LoginOrEmail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest._password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.TokenControllers.Requests.Entities.SignInRequest.CodeTFA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.XTokensControllers.Entities.TokensController.GetAsync">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.XTokensControllers.Entities.TokensController.DeleteAsync">
+            <summary>
+            [HUMAN]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.XTokensControllers.Entities.TokensController.GetAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.XTokensControllers.Entities.TokensController.DeleteAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.PutSignUpAsync(SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest)">
+            <summary>
+            [ANY]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.PathEditAsync(SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest)">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.GetAsync">
+            <summary>
+            [IDENTITY]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.DeleteAsync">
+            <summary>
+            [USER]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.GetByGuidUserAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.GetByGuidXTokenAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Entities.UserController.DeleteAsync(SnakeTBs.Identity.LogicLayer.Models.Requests.Entities.GuidRequest)">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditGuidRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.EditRequest.Update(SnakeTBs.Identity.DataLayer.Models.Tables.Entities.UserTable)">
+            <summary>
+            
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest._password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest._confirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.FirstName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.MiddleName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.LastName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Language">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.Referral">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UserControllers.Requests.Entities.SignUpRequest.ToUserTableCreater(SnakeTBs.Identity.DataLayer.Models.Tables.RoleUserTable)">
+            <summary>
+            
+            </summary>
+            <param name="role"></param>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Controllers.UsersControllers.Entities.UsersController.GetUsersAsync">
+            <summary>
+            [ADMINISTRATORS]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.FamilyOS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.MajorOS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.FamilyUserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.MajorUserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.FamilyDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.BrandDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.ModelDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.IpAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.#ctor(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            
+            </summary>
+            <param name="httpRequest"></param>
+        </member>
+        <member name="M:SnakeTBs.Identity.Api.Models.Entities.UserAgentModel.Update(SnakeTBs.Identity.DataLayer.Models.Tables.Entities.TokenTable)">
+            <summary>
+            
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
